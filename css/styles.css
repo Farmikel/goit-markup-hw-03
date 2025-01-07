@@ -31,6 +31,10 @@ ul {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+}
+
 div {
   margin-top: 0;
   margin-bottom: 0;
@@ -40,11 +44,17 @@ main {
   flex-grow: 1;
 }
 
+.header-container {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   max-width: 1158px;
-  min-height: 100vh;
 }
 
 .header {
@@ -62,6 +72,7 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4D5AE5;
+  display: inline-block;
 }
 
 nav,
@@ -132,6 +143,7 @@ address a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 188px 0;
 }
 
 .page-title {
@@ -140,7 +152,7 @@ address a {
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 }
 
@@ -190,6 +202,7 @@ address a {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 
 .about-title-info {
   letter-spacing: 0.02em;
@@ -249,16 +262,20 @@ address a {
 .footer {
   background-color: #2E2F42;
   color: #F4F4FD;
-  padding: 100px 15px;
+  padding: 100px 0;
 }
 
 .footer .second-logo-part {
   color: #F4F4FD;
 }
 
-.footer .footer-text {
+.footer > .logo {
+  margin-bottom: 16px;
+}
+
+.footer-text {
   letter-spacing: 0.02em;
-  width: 264px;
+  max-width: 264px;
 }
 
 .team-info img {
