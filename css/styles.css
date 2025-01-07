@@ -269,7 +269,8 @@ address a {
   color: #F4F4FD;
 }
 
-.footer > .logo {
+.footer a {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
