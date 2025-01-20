@@ -92,6 +92,7 @@ main {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .second-logo-part {
@@ -111,7 +112,6 @@ nav li a:focus {
 
 .website-navigation-item {
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 address a {
@@ -127,6 +127,10 @@ address a {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.address-item {
+  padding: 24px 0;
 }
 
 .contact-links:hover,
@@ -310,7 +314,7 @@ address a {
 
 .footer-text {
   letter-spacing: 0.02em;
-  max-width: 266px;
+  max-width: 264px;
 }
 
 .team-info img {
