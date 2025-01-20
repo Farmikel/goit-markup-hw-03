@@ -81,10 +81,12 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4D5AE5;
+  margin-right: 76px;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .contact-links > ul {
@@ -95,7 +97,6 @@ main {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  margin-left: 76px;
 }
 
 .second-logo-part {
@@ -166,12 +167,6 @@ address a {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
 }
 
 .order-button {
@@ -264,7 +259,7 @@ address a {
 .team-name-position {
   display: flex;
   flex-direction: column;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .position {
