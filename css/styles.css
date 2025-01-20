@@ -111,6 +111,7 @@ nav li a:focus {
 
 .website-navigation-item {
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 address a {
@@ -309,7 +310,7 @@ address a {
 
 .footer-text {
   letter-spacing: 0.02em;
-  max-width: 264px;
+  max-width: 266px;
 }
 
 .team-info img {
