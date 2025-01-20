@@ -96,14 +96,13 @@ main {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
 }
 
 .second-logo-part {
   color: #2E2F42;
 }
 
-nav li a{
+.website-link{
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2E2F42;
@@ -116,8 +115,6 @@ nav li a:focus {
 
 .website-navigation-item {
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 address a {
