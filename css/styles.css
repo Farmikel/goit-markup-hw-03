@@ -113,9 +113,10 @@ nav li a:focus {
   color: #404bbf;
 }
 
-.website-navigation {
+.website-navigation-item {
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 address a {
@@ -127,8 +128,13 @@ address a {
   font-style: normal;
 }
 
-.contact-links > ul {
+.address-items {
   display: flex;
+  align-items: center;
+}
+
+.address-item {
+  padding: 24px 0;
 }
 
 .contact-links:hover,
@@ -143,10 +149,6 @@ address a {
 .contact-info:hover,
 .contact-info:focus {
   color: #404bbf;
-}
-
-.address-item {
-  padding: 24px 0;
 }
 
 .section {
