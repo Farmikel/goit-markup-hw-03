@@ -2,7 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
@@ -31,15 +30,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul {
+h6 {
   margin: 0;
 }
 
-ul {
+ul, ol {
   list-style-type: none;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -59,12 +57,13 @@ main {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -82,11 +81,9 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4D5AE5;
-  margin-right: 76px;
 }
 
 .navigation {
-  align-items: center;
   display: flex;
 }
 
@@ -98,6 +95,7 @@ main {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  margin-left: 76px;
 }
 
 .second-logo-part {
@@ -168,6 +166,12 @@ address a {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .order-button {
