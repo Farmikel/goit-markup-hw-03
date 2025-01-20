@@ -103,6 +103,7 @@ main {
   font-weight: 500;
   color: #2E2F42;
   padding: 24px 0;
+  display: block;
 }
 
 nav li a:hover,
