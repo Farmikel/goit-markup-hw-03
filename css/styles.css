@@ -70,7 +70,6 @@ main {
   display: flex;
   align-content: center;
   border-bottom: 1px solid #E7E9FC;
-  padding: 24px 0;
 }
 
 .logo {
@@ -116,6 +115,7 @@ nav li a:focus {
 
 .website-navigation {
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 address a {
@@ -143,6 +143,10 @@ address a {
 .contact-info:hover,
 .contact-info:focus {
   color: #404bbf;
+}
+
+.address-item {
+  padding: 24px 0;
 }
 
 .section {
@@ -181,6 +185,8 @@ address a {
   height: 56px;
   border-radius: 4px;
   min-width: 169px;
+  display: block;
+  margin: auto;
 }
 
 .order-button:hover,
