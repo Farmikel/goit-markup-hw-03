@@ -96,6 +96,7 @@ main {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .second-logo-part {
@@ -133,9 +134,9 @@ address a {
   align-items: center;
 }
 
-.address-item {
+/* .address-item {
   padding: 24px 0;
-}
+} */
 
 .contact-links:hover,
 .contact-links:focus {
