@@ -88,10 +88,6 @@ main {
   align-items: center;
 }
 
-.contact-links > ul {
-  gap: 40px;
-}
-
 .nav-links {
   display: flex;
   gap: 40px;
@@ -129,11 +125,8 @@ address a {
 .address-items {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-
-/* .address-item {
-  padding: 24px 0;
-} */
 
 .contact-links:hover,
 .contact-links:focus {
